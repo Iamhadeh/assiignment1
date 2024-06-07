@@ -5,37 +5,102 @@ body {
     margin: 0px;
 }
 
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 .first-section {
     width: 1400px;
-    height: 900px;
+    height: 1000px;
     display: grid;
-    grid-template-columns: 800px 400px 300px;
-    grid-template-rows: 300px 600px;
-    align-items: center;
-    justify-content: center;
+    grid-template-columns: 800px 200px 300px;
+    grid-template-rows: 400px 600px;
     background-color: #d7d9d6;
 }
 
+
+
+
 .item-1 {
     background-color: green;
-    height: 300px;
-    width: 200px;
+    height: 00px;
+    width: 800px;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 .item-2 {
-    background-color: red;
-    height: 900px;
-    width: 10px;
+    height: 1000px;
+    width: 30px;
+    grid-row: 1/2;
+    grid-column: 2/3;
 }
 
 .item-3 {
-    background-color: blue;
-    height: 900px;
-    width: 10px;
+    height: 1000px;
+    width: 300px;
+    grid-column: 3/4;
+   
 }
 
 .item-4 {
-    height: 300px;
+    height: 400px;
     width: 800px;
     display: flex;
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+.lines {
+    height: 1000px;
+}
+
+
+menu {
+    width: 1300px;
+    position: absolute;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 310px;
+}
+
+.btn {
+    height: 20px;
+    width: 150px;
+    background-color: transparent;
+    border: 2px transparent;
+}
+
+#home {
+    background-color: black;
+    border-radius: 75px;
+    width: 120px;
+    height: 30px;
+    color: #d7d9d6;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    padding: 0px;
+    margin: 0px;
+}
+
+.btn > p {
+    color: #d7d9d6;
+    font: 10px;
+}
+
+#terra {
+    color: #777777;
+}
+
+#namebox {
+    position: absolute;
+    top: 200px;
+    left: 130px;
 }
